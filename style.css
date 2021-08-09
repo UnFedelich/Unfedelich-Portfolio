@@ -1,0 +1,1269 @@
+/*------------------------------ General ----------------------------*/
+* {
+    Margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.titulosGeneral {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+    border-bottom: 1px solid #fee73c;
+    line-height: 0.1em;
+    margin-top: 1rem;
+}
+
+.spanLinea {
+    background: #231d36;
+    padding: 0 3rem;
+}
+
+.spanLineaB {
+    background: #261a2e;
+    padding: 0 3rem;
+}
+
+.spanLineaC {
+    background: #251b30;
+    padding: 0 3rem;
+}
+
+.spanLineaD {
+    background: #241d34;
+    padding: 0 3rem;
+}
+
+.subtitulosGeneral {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fee73c;
+    text-decoration: underline;
+}
+
+/*-----------------INDX GENERAL---------------------*/
+#wrapper {
+    background-color: #231d36;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    overflow: hidden;
+    align-items: center;
+}
+
+.columnWrapper {
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------- INDX GIF ----------------------- */
+
+.wrapperGif {
+    align-items: center;
+}
+
+/*---------------------INDX - columna A ------------------------*/
+.columnaA {
+    text-align: right;
+    width: 50%;
+}
+
+.columnaAImage {
+    width: 30%;
+}
+
+/*---------------------INDX - columna B ------------------------*/
+.columnaB {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.tituloPrincipal {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+.subtituloPrincipal {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.textoPrincipal {
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #ffffff;
+    width: 50%;
+}
+
+/*-------------------------Nav presentacion ---------------------------------------*/
+.columnaBnavegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.columnaBul {
+    display: flex;
+    gap: 4rem;
+}
+
+.columnaBli {
+    align-items: center;
+}
+
+.columnaBtextoredes {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a i {
+    font-size: 2.5rem;
+    color: #b6b6b6;
+}
+
+a i:hover {
+    color: #ffffff;
+}
+
+/*------------------Boton----------------------*/
+.columnaBnavBoton {
+    display: flex;
+}
+
+.columnaBulBoton {
+    list-style-type: none;
+}
+
+.columnaBliBoton {
+    text-align: center;
+    width: 16rem;
+}
+
+.columnaBaBoton {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #fa897b;
+    border-radius: 3rem;
+    text-decoration: none;
+}
+
+.columnaBliBoton:hover .columnaBaBoton {
+    background-color: #d85746;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+/* -----------Section 2 ABOUT ME-------------- */
+
+#aboutMe {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutMecolumnwrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.aboutMeColumna {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 20%;
+    gap: 2rem;
+}
+
+.aboutMeimage {
+    height: 10rem;
+}
+
+.aboutMetexto {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+/* -------------------Header------------------*/
+header {
+    background-color: #26192b;
+    box-shadow: 0 2px 5px 3px rgb(0 0 0 / 5%);
+}
+
+.container-fluid {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.headerImage {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 1rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-nav {
+    gap: 2rem;
+}
+
+.navbar-nav:last-child {
+    margin-right: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fee73c;
+}
+
+.aHeader {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    color: #FFFFFF;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+body {
+    background-color: #231d36;
+}
+
+/*--------------SKILLS----------------*/
+
+/*-----------------ANIMATION 1------------*/
+#animation1 {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/Ilustradorprueba.png);
+    background-position: top left;
+}
+
+#animation1:hover {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/Ilustradorprueba.png);
+
+    animation: play 2s steps(21) infinite;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -5040px;
+    }
+}
+
+/*----------------- ANIMATION 2------------*/
+#animation2 {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/webprueba.png);
+    background-position: top left;
+}
+
+#animation2:hover {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/webprueba.png);
+
+    animation: play1 2s steps(20) infinite;
+}
+
+@keyframes play1 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -4800px;
+    }
+}
+
+/*-----------------ANIMATION 3------------*/
+#animation3 {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/Designerprueba.png);
+    background-position: top left;
+}
+
+#animation3:hover {
+    width: 240px;
+    height: 240px;
+    background-image: url(multimedia/Designerprueba.png);
+
+    animation: play2 2s steps(23) infinite;
+}
+
+@keyframes play2 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -5520px;
+    }
+}
+
+/* ------------- skills flex-------------*/
+
+.skillsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-image: linear-gradient(#26192b, #231d36);
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.skillsColumn {
+    display: flex;
+    flex-direction: Row;
+}
+
+.skillImageWraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    width: 50%;
+}
+
+.skillBarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    width: 50%;
+}
+
+/* ------------- skills General -------------*/
+.barOrganization {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.skillSubtittle {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+    border-bottom: 1px solid #fee73c;
+    line-height: 0.1em;
+    margin-top: 1rem;
+}
+
+.barSubColumn {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+}
+
+.skillsP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    width: 60%;
+    text-align: center;
+}
+
+.skillsdesc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: block;
+    color: #FFFFFF;
+}
+
+.skillsdescP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.skillCharacterGif {
+    width: 35rem;
+}
+
+.itemSkill {
+    width: 7rem;
+}
+
+/* -------------------- Skill bars --------------------------*/
+
+.skillBar {
+    background-color: #353b48;
+    display: block;
+    height: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #18160c;
+    width: 75%;
+}
+
+.digitalBar {
+    height: 3rem;
+    float: left;
+    background: #f54e57;
+    width: 75%;
+}
+
+.animationBar {
+    height: 3rem;
+    float: left;
+    background: #f6be67;
+    width: 85%;
+}
+
+.characterBar {
+    height: 3rem;
+    float: left;
+    background: #1b88d1;
+    width: 65%;
+}
+
+/*----------------- SERVICES-----------------------*/
+
+/*---------------------SERVICES GENERAL ---------------------*/
+#servicesBigWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#26192b, #231d36);
+}
+
+/*--------------------CAROUSEL---------------------------*/
+.carouselServices {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+/*------------------------SERVICES GRAL---------------------*/
+#idServices {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.serviceColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-top: 3rem;
+}
+
+.serviceSubtittle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.serviceP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.serviceImage {
+    width: 18rem;
+}
+
+/*---------------------PROJECTS---------------------------*/
+.projectImage {
+    width: 98%;
+    transition: width 1s;
+}
+
+.projectImage:hover {
+    width: 100%;
+}
+
+#idProjects {
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navProjects {
+    display: flex;
+    padding: 8rem;
+}
+
+.ulProjects {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* -------------------- Experience -------------------*/
+.experienceSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background-image: linear-gradient(#26192b, #231d36);
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/*--------------- Animation --------------------*/
+#mapAnimation {
+    display: flex;
+    width: 536px;
+    height: 340px;
+    background-image: url(multimedia/Map-experience.png);
+    background-position: top left;
+}
+
+#mapAnimation:hover {
+    width: 536px;
+    height: 340px;
+    background-image: url(multimedia/Map-experience.png);
+
+    animation: play4 10s steps(95) infinite;
+}
+
+@keyframes play4 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -50920px;
+    }
+}
+
+/*--------------- Animation --------------------*/
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-bottom: 5rem;
+}
+
+.experienceCard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2f2035;
+    padding: 2rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    width: 50rem;
+}
+
+.experienceInfoWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceImg {
+    height: 5rem;
+}
+
+.experienceH3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fee73c;
+}
+
+.experienceP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.experienceH4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* ------------- Contact -------------*/
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 4rem;
+    background-image: linear-gradient(#26192b, #231d36);
+    align-items: center;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 12rem;
+}
+
+.artContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.contactP {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.aEmailMe {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #fee73c;
+}
+
+.aEmailMe:hover {
+    text-decoration: underline;
+    color: #fee73c;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactImput {
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 30rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.contactImputtext {
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 30rem;
+    height: 10rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.contactSend {
+    margin: 1rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 30rem;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #fa897b;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.contactSend:hover {
+    background-color: #d15a4a;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.contactImage {
+    width: 30rem;
+}
+
+/*--------------------404 Not found ----------------------------*/
+.notFoundSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    gap: 4rem;
+    background-image: linear-gradient(#26192b, #231d36);
+    align-items: center;
+    padding-bottom: 17rem;
+}
+
+.notFoundTittle {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.notfoundButton{
+    text-align: center;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-radius: 3rem;
+    background-color:#fa897b ;
+    border: none;
+    padding: 1rem;
+    width: 30rem;
+    text-decoration: none;
+}
+.notfoundButton:hover{
+    background-color: #d15a4a;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.notFoundImg {
+    width: 60rem;
+}
+
+/*------------Snack Bar-----------*/
+#snackbar {
+    visibility: hidden;
+    min-width: 425px;
+    margin-left: -220px;
+    background-color: #fee73c;
+    color: #0f0d17;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3rem;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 12rem;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible;
+    /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 12rem;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 12rem;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 12rem;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 12rem;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+
+/* ------------- Footer -------------*/
+footer {
+    background-color: #0f0d17;
+    width: 100%;
+    float: left;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ulFooter {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.ulFooter .liFooter:hover a i {
+    color: #ffffff;
+}
+
+.liFooter {
+    align-items: center;
+}
+
+i {
+    /* me mareo un poco con las clases*/
+    font-size: 2.5rem;
+    color: #b6b6b6;
+}
+
+.copyRight {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+/*----------------Responsive-----------------*/
+@media only screen and (max-width: 1024px) {
+
+    /*----------------General-----------------*/
+    .navbar-nav {
+        align-items: center;
+    }
+}
+
+/*----------------------------TABLET---------------------------*/
+@media only screen and (max-width: 728px) {
+
+    /*----------------INDEX-----------------*/
+    /*----------------General-----------------*/
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .titulosGeneral {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-align: center;
+        width: 50%;
+        border-bottom: 1px solid #fee73c;
+        line-height: 0.1em;
+    }
+
+    .spanLinea {
+        background: #231d36;
+        padding: 0 3rem;
+    }
+
+    .subtitulosGeneral {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #fee73c;
+        text-decoration: underline;
+    }
+
+    .columnWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*------------Columna A-----------*/
+    .columnaA {
+        text-align: center;
+        width: 100%;
+    }
+
+    .columnaAImage {
+        width: 35%;
+    }
+
+    /*------------Columna B -----------*/
+    .columnaB {
+        width: 100%;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .tituloPrincipal {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .subtituloPrincipal {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .textoPrincipal {
+        width: 75%;
+        text-align: center;
+    }
+
+    .columnaBnavegacion {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .columnaBul {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    /*----------------SERVICES-----------------*/
+    #idServices {
+        margin-top: 0rem;
+    }
+
+    .serviceColumn {
+        width: 70%;
+    }
+
+    .carouselServices {
+        width: 90%;
+    }
+
+    /*-------------CONTACTO-------------------*/
+    .formWrapper {
+        flex-direction: column;
+    }
+}
+
+/*----------------------------MOBILE---------------------------*/
+@media only screen and (max-width: 320px) {
+
+    /*-------------INDEX--------------------*/
+    /*----------------General-----------------*/
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .titulosGeneral {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-align: center;
+        width: 50%;
+        border-bottom: 1px solid #fee73c;
+        line-height: 0.1em;
+    }
+
+    .spanLinea {
+        background: #231d36;
+        padding: 0 3rem;
+    }
+
+    .subtitulosGeneral {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #fee73c;
+        text-decoration: underline;
+    }
+
+    .columnWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .principalGif {
+        width: 100%;
+    }
+
+    /*------------Columna A-----------*/
+    .columnaA {
+        text-align: center;
+        width: 100%;
+    }
+
+    .columnaAImage {
+        width: 50%;
+    }
+
+    /*------------Columna B -----------*/
+    .columnaB {
+        width: 100%;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .tituloPrincipal {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .subtituloPrincipal {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .textoPrincipal {
+        width: 90%;
+        text-align: center;
+    }
+
+    .columnaBnavegacion {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .columnaBul {
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .columnaBli:first-child {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    /*----------------aboutme--------------------*/
+    .aboutMecolumnwrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMeColumna {
+        width: 90%;
+    }
+
+    /*----------------SERVICES-----------------*/
+    #idServices {
+        margin-top: 0rem;
+    }
+
+    .serviceColumn {
+        width: 70%;
+    }
+
+    .carouselServices {
+        width: 100%;
+    }
+
+    /*------------PROJECTS-----------------*/
+    .navProjects {
+        padding: 4rem;
+    }
+
+    /*----------------SKILLS-----------------*/
+
+    .skillsColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillImageWraper {
+        width: 100%;
+    }
+
+    .skillBarWrapper {
+        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    /*-------------EXPERIENCE-------------------*/
+    /*--------------- Animation --------------------*/
+    #mapAnimation {
+        display: flex;
+        width: 268px;
+        height: 170px;
+        background-image: url(multimedia/Map-experience-mobile.png);
+        background-position: top left;
+    }
+
+    #mapAnimation:hover {
+        width: 268px;
+        height: 170px;
+        background-image: url(multimedia/Map-experience-mobile.png);
+
+        animation: play5 10s steps(95) infinite;
+    }
+
+    @keyframes play5 {
+        from {
+            background-position: 0px;
+        }
+
+        to {
+            background-position: -25460px;
+        }
+    }
+
+    .titulosGeneral {
+        width: 90%;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+    }
+
+    .experienceCard {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: #2f2035;
+        padding: 2rem;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+        width: 90%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*-------------CONTACTO-------------------*/
+}
