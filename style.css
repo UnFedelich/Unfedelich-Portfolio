@@ -36,7 +36,7 @@ ul {
 }
 
 .spanLineaB {
-    background: #261a2e;
+    background: #353b48;
     padding: 0 3rem;
 }
 
@@ -691,7 +691,7 @@ body {
     flex-direction: column;
     padding: 3rem;
     gap: 4rem;
-    background-image: linear-gradient(#26192b, #231d36);
+    background-color: #353b48;
     align-items: center;
 }
 
@@ -731,12 +731,12 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 1.5rem;
-    color: #fee73c;
+    color: #ffffff;
 }
 
 .aEmailMe:hover {
     text-decoration: underline;
-    color: #fee73c;
+    color: #ffffff;
 }
 
 .formContainer {
@@ -773,13 +773,13 @@ body {
     width: 30rem;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
-    background-color: #fa897b;
+    background-color: #39c5a7;
     border: none;
     font-size: 1.5rem;
 }
 
 .contactSend:hover {
-    background-color: #d15a4a;
+    background-color: #25a187;
     font-size: 1.5rem;
     text-decoration: underline;
 }
