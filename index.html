@@ -5,107 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-------------ETIQUETAS SEO----------------->
-    <meta name="description" content="Hello! Welcome to Federico Delich's web portfolio, you will find information on graphic design, user experience, animations, among other things. Come by and look, don't be shy.">
-    <meta name="keywords"  content="Portfolio, Graphic Design, Ux/Ui Design, Pixel Art, Motion Graphics, Branding, illustration, Frontend">
-    <title>Presentation page / Fedelich's Portfolio</title>
-    <!-----------LINKS FUENTES---------------->
+    <title>Fedelich</title>
+    <!------------------LINK FONTS------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
-    <!-----------LINK ICONOS---------------->
+    <!------------------LINK ICONOSO------------------->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <!-----------LINK BOOSTRAP---------------->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-----------LINK HOJA DE ESTILO ---------------->
-    <link rel="stylesheet" href="style.css" />
+    <!------------------LINK HOJA DE ESTILOS------------------->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <!--------------HEADER ------------------>
-    <div class="container-fluid navegacionPrincipal">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="headerImage" src="multimedia/Logo.png" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="index.html#aboutMe">About me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/Skills.html">skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/services.html#idProjects">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/experience.html">Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/contact.html">Contacts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link aHeader" href="pages/404.html">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <!------------------HEADER------------------->
+    <header>
+        <div class="header__navegacion header__navegacion--last header__navegacion--first">
+            <a href="index.html"><img class="header__Logo" src="multimedia/Logo.png" alt="Logo"></a>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__li header__li--over"><a class="header__texto" href="#aboutMe">About me</a></li>
+                    <li class="header__li header__li--over"><a class="header__texto" href="pages/skills.html">Skills</a>
+                    </li>
+                    <li class="header__li header__li--over"><a class="header__texto"
+                            href="pages/services.html">Services</a></li>
+                    <li class="header__li header__li--over"><a class="header__texto"
+                            href="pages/services.html#idProjects">Projects</a></li>
+                    <li class="header__li header__li--over"><a class="header__texto"
+                            href="pages/experience.html">Experience</a></li>
+                    <li class="header__li header__li--over"><a class="header__texto"
+                            href="pages/contact.html">Contact</a></li>
+                </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
     <!-----------------------GRID----------------------->
     <div id="wrapper">
         <!------------------GIFT------------------------>
-        <section id="wrapperGif">
-            <img class="principalGif" src="multimedia/Background-gif.gif"
+        <section id="contenedorGif">
+            <img src="multimedia/Background-gif.gif"
                 alt="animated gif of the fedelich Logo floating on a city background" />
         </section>
         <!-----------------CONTENEDOR COLUMNAS --------------->
         <div class="columnWrapper">
             <!------------------COLUMNA A IMG------------------->
             <section class="columnaA">
-                <img class="columnaAImage" src="multimedia/Placeholder1.gif" alt="Image of a boy greeting (coming soon)" />
+                <img class="columnaA__image" src="multimedia/Placeholder1.png" alt="Adaptability Icon" />
             </section>
             <!------------------COLUMNA B PRESENTACION------------------->
             <section class="columnaB">
-                <h1 class="tituloPrincipal">Hello! i'm Federico Delich</h1>
-                <h2 class="subtituloPrincipal">i'm a Jr. UX/UI Designer and this is my portfolio</h2>
-                <p class="textoPrincipal">I am currently working in a marketing agency and I also work as a <strong>UX
-                    freelance</strong>. I
+                <h1 class="columnaB__titulo">Hello! i'm Federico Delich</h1>
+                <h2 class="columnaB__subtitulo">i'm a Jr. UX/UI Designer and this is my portfolio</h2>
+                <p class="columnaB__texto">I am currently working in a marketing agency and I also work as a UX
+                    freelance. I
                     think I am a versatile person. I really like to illustrate, I always try to find new techniques to
-                    explore (digital art, 3d, pixel art). As a <strong>Ux designer</strong> I seek to squeeze every view, making
+                    explore (digital art, 3d, pixel art). As a Ux designer I seek to squeeze every view, making
                     variations
                     in order to find the cleanest flow.</p>
-                <nav class="columnaBnavegacion">
-                    <ul class="columnaBul">
-                        <li class="columnaBli">
-                            <p class="columnaBtextoredes">Social Networks</P>
+                <nav class="columnaB__navegacion">
+                    <ul class="columnaB__ul">
+                        <li class="columnaB__li">
+                            <p class="columnaB_textoredes">Social Networks</P>
                         </li>
-                        <li class="columnaBli"><a href="https://dribbble.com/FedericoDelich" target="blank"><i
-                                    class="fab fa-dribbble-square"></i></a></li>
-                        <li class="columnaBli"><a href="https://www.behance.net/fedelich" target="blank"><i
-                                    class="fab fa-behance-square"></i></a></li>
-                        <li class="columnaBli"><a href="https://www.linkedin.com/in/federicodelich/" target="blank"><i
+                        <li class="columnaB__li columnaB__li--over"><a href="https://dribbble.com/FedericoDelich"
+                                target="blank"><i class="fab fa-dribbble-square"></i></a></li>
+                        <li class="columnaB__li columnaB__li--over"><a href="https://www.behance.net/fedelich"
+                                target="blank"><i class="fab fa-behance-square"></i></a></li>
+                        <li class="columnaB__li columnaB__li--over"><a
+                                href="https://www.linkedin.com/in/federicodelich/" target="blank"><i
                                     class="fab fa-linkedin"></i></li>
                     </ul>
                 </nav>
-                <nav class="columnaBnavBoton">
-                    <ul class="columnaBulBoton">
-                        <li class="columnaBliBoton"><a class="columnaBaBoton"
+                <nav class="columnaB__navBoton">
+                    <ul class="columnaB__ulBoton">
+                        <li class="columnaB__liBoton columnaB__liBoton--over"><a class="columnaB__aBoton"
                                 href="mailto:cuenta@deemail.com">Hire Me!</a></li>
                     </ul>
                 </nav>
@@ -113,27 +88,27 @@
         </div>
         <!------------------SECCION ABOUT ME------------------->
         <section id="aboutMe">
-            <h2 class="titulosGeneral"><span class="spanLinea">About Me</span></h2>
-            <div class="aboutMecolumnwrapper">
-                <div class="aboutMeColumna">
-                    <img class="aboutMeimage" src="multimedia/Placeholder2.png" alt="Figure of a puzzle" />
-                    <h3 class="subtitulosGeneral">Adaptability</h3>
-                    <p class="aboutMetexto">I consider myself a versatile person, I seek to adapt quickly to my work
+            <h2 class="aboutMe__titulo"><span class="aboutMe__linea">About Me</span></h2>
+            <div class="aboutMe__columnwrapper">
+                <div class="aboutMe__Columna">
+                    <img class="aboutMe__Columna__image" src="multimedia/Placeholder2.png" alt="Adaptability Icon" />
+                    <h3 class="aboutMe__Columna__subTitulo">Adaptability</h3>
+                    <p class="aboutMe__Columna__texto">I consider myself a versatile person, I seek to adapt quickly to my work
                         environmen
                     </p>
                 </div>
-                <div class="aboutMeColumna">
-                    <img class="aboutMeimage" src="multimedia/Placeholder3.png" alt="Pixel art Light bulb figure" />
-                    <h3 class="subtitulosGeneral">Curious</h3>
-                    <p class="aboutMetexto">I like to internalize myself in anything that makes me curious, not just
+                <div class="aboutMe__Columna">
+                    <img class="aboutMe__Columna__image" src="multimedia/Placeholder3.png" alt="Curious Icon" />
+                    <h3 class="aboutMe__Columna__subTitulo">Curious</h3>
+                    <p class="aboutMe__Columna__texto">I like to internalize myself in anything that makes me curious, not just
                         stay on
                         the
                         surface</p>
                 </div>
-                <div class="aboutMeColumna">
-                    <img class="aboutMeimage" src="multimedia/Placeholder4.png" alt="Figure of a person lifting weight" />
-                    <h3 class="subtitulosGeneral">Hard Worke</h3>
-                    <p class="aboutMetexto">I complement my skills with effort and dedication to achieve what is
+                <div class="aboutMe__Columna">
+                    <img class="aboutMe__Columna__image" src="multimedia/Placeholder4.png" alt="Hard Worker Icon" />
+                    <h3 class="aboutMe__Columna__subTitulo">Hard Worke</h3>
+                    <p class="aboutMe__Columna__texto">I complement my skills with effort and dedication to achieve what is
                         expected of
                         me
                     </p>
@@ -141,35 +116,22 @@
             </div>
     </div>
     </section>
-    <!--------------FOOTER ------------------>
+    <!------------------FOOTER------------------->
     <footer>
-        <div class="container-fluid">
-            <nav class="navFooter">
-                <ul class="ulFooter">
-                    <li class="liFooter"><a href="index.html"><img class="headerImage" src="multimedia/Logo.png"
-                                alt="Logo"></a></li>
-                    <li class="liFooter"><a href="https://dribbble.com/FedericoDelich" target="blank"><i
-                                class="fab fa-dribbble-square "></i></a></li>
-                    <li class="liFooter"><a href="https://www.behance.net/fedelich" target="blank"><i
-                                class="fab fa-behance-square"></i></a></li>
-                    <li class="liFooter"><a href="https://www.linkedin.com/in/federicodelich/" target="blank"><i
-                                class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </nav>
-            <p class="copyRight">Copyright © 2021 Fedelich. All rights reserved.</p>
-        </div>
+        <nav class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__li footer__li--over"><a href="index.html"><img class="footer__logo"
+                            src="multimedia/Logo.png" alt="Logo"></a></li>
+                <li class="footer__li footer__li--over"><a href="https://dribbble.com/FedericoDelich" target="blank"><i
+                            class="fab fa-dribbble-square "></i></a></li>
+                <li class="footer__li footer__li--over"><a href="https://www.behance.net/fedelich" target="blank"><i
+                            class="fab fa-behance-square"></i></a></li>
+                <li class="footer__li footer__li--over"><a href="https://www.linkedin.com/in/federicodelich/"
+                        target="blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">Copyright © 2021 Fedelich. All rights reserved.</p>
     </footer>
-
-    <!--------------SCRIPTS ------------------>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>
