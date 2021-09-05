@@ -413,6 +413,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 .skillSubtittle {
@@ -457,6 +458,7 @@ body {
     display: block;
     color: #FFFFFF;
     text-align: center;
+    padding-top: 3px;
 }
 
 .skillCharacterGif {
@@ -479,26 +481,68 @@ body {
     box-shadow: 0 0 10px #18160c;
     width: 75%;
 }
-
-.digitalBar {
+/* ---------- Design ----------*/
+.digitalDgBar {
     height: 3rem;
     float: left;
     background: #f54e57;
     width: 75%;
 }
 
-.animationBar {
+.editorialBar {
     height: 3rem;
     float: left;
     background: #f6be67;
     width: 85%;
 }
 
-.characterBar {
+.brandBar {
     height: 3rem;
     float: left;
     background: #1b88d1;
     width: 65%;
+}
+/* ---------- Ilust ----------*/
+.digitalBar {
+    height: 3rem;
+    float: left;
+    background: #f54e57;
+    width: 70%;
+}
+
+.animationBar {
+    height: 3rem;
+    float: left;
+    background: #f6be67;
+    width: 80%;
+}
+
+.characterBar {
+    height: 3rem;
+    float: left;
+    background: #1b88d1;
+    width: 70%;
+}
+/* ---------- web ----------*/
+.accesBar {
+    height: 3rem;
+    float: left;
+    background: #f54e57;
+    width: 60%;
+}
+
+.frontBar {
+    height: 3rem;
+    float: left;
+    background: #f6be67;
+    width: 70%;
+}
+
+.uxuiBar {
+    height: 3rem;
+    float: left;
+    background: #1b88d1;
+    width: 85%;
 }
 
 /*----------------- SERVICES-----------------------*/
@@ -662,6 +706,7 @@ body {
 
 .experienceImg {
     height: 5rem;
+    padding-right: 2rem;
 }
 
 .experienceH3 {
@@ -701,7 +746,7 @@ body {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 2rem;
     margin-top: 3rem;
     margin-bottom: 12rem;
 }
@@ -1068,10 +1113,15 @@ i {
     .formWrapper {
         flex-direction: column;
     }
+    
+    /*-------------BLOG-------------------*/
+    .notFoundImg {
+        width: 36rem;
+    }
 }
 
 /*----------------------------MOBILE---------------------------*/
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
     /*-------------INDEX--------------------*/
     /*----------------General-----------------*/
@@ -1266,4 +1316,94 @@ i {
     }
 
     /*-------------CONTACTO-------------------*/
+    .artContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactImage {
+        width: 24rem;
+    }
+
+    #snackbar {
+        visibility: hidden;
+        min-width: 260px;
+        width: 300px;
+        margin-left: -150px;
+        background-color: #fee73c;
+        color: #0f0d17;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 3rem;
+        padding: 20px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 8rem;
+    }
+        
+    /* Show the snackbar when clicking on a button (class added with JavaScript) */
+    #snackbar.show {
+        visibility: visible;
+        /* Show the snackbar */
+        /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+        However, delay the fade out process for 2.5 seconds */
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    
+    /* Animations to fade the snackbar in and out */
+    @-webkit-keyframes fadein {
+        from {
+            bottom: 0;
+            opacity: 0;
+        }
+    
+        to {
+            bottom: 8rem;
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadein {
+        from {
+            bottom: 0;
+            opacity: 0;
+        }
+    
+        to {
+            bottom: 8rem;
+            opacity: 1;
+        }
+    }
+    
+    @-webkit-keyframes fadeout {
+        from {
+            bottom: 8rem;
+            opacity: 1;
+        }
+    
+        to {
+            bottom: 0;
+            opacity: 0;
+        }
+    }
+    
+    @keyframes fadeout {
+        from {
+            bottom: 8rem;
+            opacity: 1;
+        }
+    
+        to {
+            bottom: 0;
+            opacity: 0;
+        }
+    }
+    /*------------------BLOG-------------------*/
+    .notFoundImg {
+        width: 32rem;
+    }
 }
